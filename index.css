@@ -209,43 +209,48 @@
     letter-spacing: 0%;
     color: #727272;
 }
-.thirdSectionImg{
-    position: relative;     
+
+.thirdSectionImg {
+    position: relative;
 }
 
- .lady {
+.lady {
     display: block;
 }
 
 .ten {
     position: absolute;
     bottom: 10px;
-} 
+}
 
 /* forth section */
-.forthSection{
+.forthSection {
     margin-top: 30px;
 }
-.forthSectiondescription{
+
+.forthSectiondescription {
     margin-left: 50px;
 }
-.forthSectionHead{
- font-family: Work Sans;
+
+.forthSectionHead {
+    font-family: Work Sans;
     font-weight: 700;
     font-size: 45px;
     line-height: 100%;
     letter-spacing: 0%;
     color: #131313;
 }
-.forthSectionText{
- font-family: Work Sans;
+
+.forthSectionText {
+    font-family: Work Sans;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0%;
     color: #727272;
 }
-.forthSectionContainer{
+
+.forthSectionContainer {
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -253,7 +258,8 @@
     text-align: center;
     gap: 20px;
 }
-.container{
+
+.container {
     box-shadow: none;
     transition: 0.3s;
     padding: 16px;
@@ -265,7 +271,8 @@
 .container:hover {
     border: 2px solid blue
 }
-.containerTextOne{
+
+.containerTextOne {
     font-family: Work Sans;
     font-weight: 600;
     font-size: 45px;
@@ -273,11 +280,66 @@
     letter-spacing: 0%;
     color: #424242;
 }
-.containerTextTwo{
- font-family: Work Sans;
+
+.containerTextTwo {
+    font-family: Work Sans;
     font-weight: 600;
     font-size: 20px;
     line-height: 100%;
     letter-spacing: 0%;
     color: #727272;
+}
+
+/* footer */
+.footer {
+    margin-top: 50px;
+}
+
+.footerdescription {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.footerHead {
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #131313;
+}
+
+.footerText {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #727272;
+    text-align: center;
+}
+
+.footerImg {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.landscapeDiv {
+    background-color: #FFF4E7;
+    margin: 50px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.oneLine {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #424242;
+    text-align: center;
 }

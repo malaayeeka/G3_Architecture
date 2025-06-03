@@ -4,13 +4,18 @@
     box-sizing: border-box;
 }
 
+/* first section */
+.firstSection {
+    background-color: #FF900E1A;
+}
+
 /* navbar */
 .navBar {
     display: flex;
     justify-content: space-around;
     justify-items: center;
     align-items: center;
-    background-color:#FF900E1A;
+    /* background-color:#FF900E1A; */
 }
 
 .topText {
@@ -41,4 +46,55 @@
 .navLink a:hover {
     color: #FF900E;
     transition: 0.3s;
+}
+
+/* banner */
+.banner {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.bannerTextOne {
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #131313;
+    text-align: center;
+}
+
+.bannerTextTwo {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #727272;
+    text-align: center;
+    margin: 10px;
+}
+
+.bannerBtn {
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.bannerBtn:hover {
+    background-color: #131313;
+    transition: 0.3s;
+}
+
+.bannerImg {
+    margin: 20px;
 }

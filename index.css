@@ -343,3 +343,86 @@
     color: #424242;
     text-align: center;
 }
+
+/* responsive */
+@media(max-width:667px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    /* navbar */
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .navLink {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* banner */
+    .banner {
+        margin-top: 0px;
+    }
+
+    .bannerBtn {
+        margin-bottom: 5px;
+    }
+
+    .bannerImg {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+
+    /* second section */
+    .secondSection {
+        flex-direction: column;
+    }
+
+    .secondSectionImg {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .secondSectionRight {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    /* third section */
+    .thirdSection {
+        flex-direction: column;
+    }
+
+    .description {
+        margin: 0px;
+    }
+
+    .lady {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .ten {
+        display: none;
+    }
+
+    /* footer */
+    .forthSectionContainer {
+        flex-direction: column;
+    }
+
+    .footerImg {
+        flex-direction: column;
+        gap: 30px;
+        margin: 80px;
+    }
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    background-color:#FF900E1A;
+}
+
+.topText {
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #131313;
+}
+
+.navLink {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+.navLink a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.navLink a:hover {
+    color: #FF900E;
+    transition: 0.3s;
+}
